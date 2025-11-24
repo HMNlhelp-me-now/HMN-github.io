@@ -1,6 +1,6 @@
 // js/firebase.js
 const firebaseConfig = {
-  
+  apiKey: "AIzaSyA7pH4XYXYVTFV6wpiP9rUETsTFhQmPsWk",
   authDomain: "mvpcu01-ebdea.firebaseapp.com",
   databaseURL: "https://mvpcu01-ebdea-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "mvpcu01-ebdea",
@@ -13,6 +13,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 const db = firebase.database();
  
+
 
 
 
